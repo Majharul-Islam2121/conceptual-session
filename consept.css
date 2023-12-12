@@ -1,0 +1,62 @@
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.container{padding: 20px;
+    background-color: blueviolet;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.nav-img{
+    width: 100px;
+    height: 100px;
+}
+nav{margin-top: 40px;
+    display: flex;
+    gap: 50px;
+}
+li{
+    list-style: none;
+}
+.nav-container{
+    display: flex;
+}
+.log{
+    background-color: deeppink;
+    color: black;
+    padding:0px 14px;
+    border-radius: 6px;
+    font-weight: 800;
+}
+.bags-container{margin-top: 70px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(233, 232, 232);
+}
+.bags-img{
+    width: 300px;
+    height: 300px;
+ 
+}
+.bags-head{
+    font-size: 40px;
+    color: rgb(193, 8, 113);
+}
+.bags-btn{
+    margin-top: 50px;
+  
+}
+button{border: 1px solid violet;
+    padding: 10px;
+    background-color: none;
+    background-color: gray;
+    font-size: 14px;
+}
+.product{margin-top: 80px;
+    text-align: center;
+    font-weight: 700px;
+}
